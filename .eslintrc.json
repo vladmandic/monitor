@@ -1,0 +1,32 @@
+{
+  "globals": {},
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "plugins": [
+    "html"
+  ],
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:json/recommended-with-comments",
+    "plugin:node/recommended",
+    "plugin:promise/recommended"
+  ],
+  "ignorePatterns": [
+  ],
+  "rules": {
+    "max-len": [1, 275, 3],
+    "radix": "off",
+    "import/extensions": "off",
+    "promise/catch-or-return": "off"
+  }
+}
