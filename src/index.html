@@ -12,20 +12,31 @@
       html { font-family: 'Lato'; font-size: 14px; font-variant: small-caps; }
       body { margin: 0; background: black; color: white; overflow: hidden; width: 100vw; height: 100vh; display: block; }
       ::-webkit-scrollbar { display: none; width: 0px; }
+      th { text-align: left; padding-right: 12px; }
+      td { padding-right: 12px; }
+      td:nth-child(1) { color: beige; }
       .menuTop { background: #222222; width: 54px; height: 100%; display: table; }
       .menuBottom { background: #222222; width: 54px; display: table; position: fixed; bottom: 0; left: 0; }
-      .content { background: #000000; width: 100%; height: 100%; display: block; position: fixed; top: 0; left: 54px; }
+      .content { background: #000000; width: 100%; height: 100%; display: block; position: fixed; top: 0; left: 54px; overflow: scroll; }
       .button { margin: 2px; padding: 0; color: white; width: 50px; height: 50px; font-size: 24px; border-width: 0; border-radius: 0; box-shadow: 4px 4px 8px 1px #222222; transition: all 0.5s; }
       .button:hover { opacity: 50%; }
-      .section { margin: 8px; padding: 4px; width: max-content; height: 140px; line-height: 1.5rem; background: #222222; border-width: 0; border-radius: 0; display: inline-table; word-spacing: 3px; }
+      .section { margin: 4px; padding: 4px; width: max-content; line-height: 1.5rem; background: #222222; border-width: 0; border-radius: 0; display: inline-table; word-spacing: 3px; }
+      .title { background: #444444; font-weight: bold; padding-left: 8px; margin: -4px -4px 4px -4px; letter-spacing: 2px; }
     </style>
   </head>
   <body>
     <div id="menuTop" class="menuTop">
-      <button id="btnSystemInfo" class="button mdi mdi-desktop-tower" title="system info"></button>
-      <button id="btnStorageInfo" class="button mdi mdi-database" title="storage info"></button>
-      <button id="btnOSInfo" class="button mdi mdi-microsoft-windows" title="os info"></button>
-      <button id="btnDisplayInfo" class="button mdi mdi-monitor" title="display info"></button>
+      <button id="btnSystemInfo" class="button mdi mdi-desktop-tower" title="SYSTEM INFO"></button>
+      <button id="btnStorageInfo" class="button mdi mdi-database" title="STORAGE INFO"></button>
+      <button id="btnOSInfo" class="button mdi mdi-microsoft-windows" title="OS INFO"></button>
+      <button id="btnDisplayInfo" class="button mdi mdi-monitor" title="DISPLAY INFO"></button>
+      <button id="btnNetworkInfo" class="button mdi mdi-ip-network" title="NETWORK INFO"></button>    
+      <button id="btnUSBInfo" class="button mdi mdi-usb" title="USB INFO"></button>
+      <button id="btnBluetoothInfo" class="button mdi mdi-bluetooth" title="BLUETOOTH INFO"></button>
+      <button id="btnAudioInfo" class="button mdi mdi-speaker" title="AUDIO INFO"></button>
+      <button id="btnPrinterInfo" class="button mdi mdi-printer" title="PRINTER INFO"></button>
+      <button id="btnBatteryInfo" class="button mdi mdi-battery" title="BATTERY INFO"></button>
+      <button id="btnCPUUsage" class="button mdi mdi-chart-box" title="CPU USAGE"></button>
     </div>
     <div id="menuBottom" class="menuBottom">
       <button id="btnRefresh" class="button mdi mdi-refresh-circle" title="refresh data"></button>

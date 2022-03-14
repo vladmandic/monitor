@@ -17,37 +17,43 @@ const sendMessage = (json) => {
   win.webContents.send('message', json);
 };
 
-const sendCoreData = () => {
+async function sendCoreData() {
+  if (!win) return;
   log('send core data');
-  si.system().then((data) => win.webContents.send('system', data));
-  si.bios().then((data) => win.webContents.send('bios', data));
-  si.baseboard().then((data) => win.webContents.send('baseboard', data));
-  si.cpu().then((data) => win.webContents.send('cpu', data));
-  si.mem().then((data) => win.webContents.send('memory', data));
-  si.memLayout().then((data) => win.webContents.send('memLayout', data));
-  si.osInfo().then((data) => win.webContents.send('osInfo', data));
-  si.users().then((data) => win.webContents.send('users', data));
-  si.diskLayout().then((data) => win.webContents.send('diskLayout', data));
-  si.blockDevices().then((data) => win.webContents.send('blockDevices', data));
-  si.fsSize().then((data) => win.webContents.send('fsSize', data));
-  si.usb().then((data) => win.webContents.send('usb', data));
-  si.printer().then((data) => win.webContents.send('printer', data));
-  si.audio().then((data) => win.webContents.send('audio', data));
-  si.networkInterfaces().then((data) => win.webContents.send('networkInterfaces', data));
-  si.wifiConnections().then((data) => win.webContents.send('wifiConnections', data));
-  si.bluetoothDevices().then((data) => win.webContents.send('bluetooth', data));
-  si.battery().then((data) => win.webContents.send('battery', data));
-};
+  const data = {};
+  data.system = await si.system();
+  data.bios = await si.bios();
+  data.baseboard = await si.baseboard();
+  data.cpu = await si.cpu();
+  data.mem = await si.mem();
+  data.memLayout = await si.memLayout();
+  data.osInfo = await si.osInfo();
+  data.users = await si.users();
+  data.diskLayout = await si.diskLayout();
+  data.blockDevices = await si.blockDevices();
+  data.fsSize = await si.fsSize();
+  data.usb = await si.usb();
+  data.printer = await si.printer();
+  data.audio = await si.audio();
+  data.networkInterfaces = await si.networkInterfaces();
+  data.wifiConnections = await si.wifiConnections();
+  data.bluetoothDevices = await si.bluetoothDevices();
+  data.battery = await si.battery();
+  win.webContents.send('coreData', data);
+}
 
-const sendPollData = () => {
+async function sendPollData() {
+  if (!win) return;
   log('send poll data');
-  si.cpuCurrentSpeed().then((data) => win.webContents.send('cpuSpeed', data));
-  si.cpuTemperature().then((data) => win.webContents.send('cpuTemp', data));
-  si.currentLoad().then((data) => win.webContents.send('currentLoad', data));
-  si.networkStats().then((data) => win.webContents.send('networkStats', data));
-  si.graphics().then((data) => win.webContents.send('graphics', data));
-  si.disksIO().then((data) => win.webContents.send('disksIO', data));
-};
+  const data = {};
+  data.cpuCurrentSpeed = await si.cpuCurrentSpeed();
+  data.cpuTemperature = await si.cpuTemperature();
+  data.currentLoad = await si.currentLoad();
+  data.networkStats = await si.networkStats();
+  data.graphics = await si.graphics();
+  data.disksIO = await si.disksIO();
+  win.webContents.send('pollData', data);
+}
 
 const createWindow = () => {
   log('create client');
@@ -87,10 +93,11 @@ async function main() {
   await createWindow();
   app.on('window-all-closed', () => {
     log('close');
+    win = null;
     app.quit();
   });
-  ipcMain.on('core', () => sendCoreData()); // get system data and send it to client when requested
-  ipcMain.on('poll', () => sendPollData()); // get system data and send it to client when requested
+  ipcMain.on('requestCoreData', () => sendCoreData()); // get system data and send it to client when requested
+  ipcMain.on('requestPollData', () => sendPollData()); // get system data and send it to client when requested
   sendMessage({ ready: true });
 }
 

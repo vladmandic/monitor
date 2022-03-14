@@ -23,9 +23,7 @@
   "build": {
     "appId": "@vladmandic/monitor",
     "win": {
-      "target": [
-        "nsis"
-      ],
+      "target": ["portable"],
       "icon": "src/favicon.ico",
       "requestedExecutionLevel": "requireAdministrator"
     },
@@ -40,6 +38,7 @@
   },
   "dependencies": {
     "electron": "^17.1.2",
+    "plotly.js-dist-min": "^2.11.0",
     "systeminformation": "^5.11.8"
   },
   "devDependencies": {

@@ -26,12 +26,15 @@
   "rules": {
     "max-len": [1, 275, 3],
     "radix": "off",
+    "prefer-template": "off",
     "import/extensions": "off",
     "promise/catch-or-return": "off",
     "no-restricted-syntax": "off",
     "no-return-assign": "off",
     "no-param-reassign": "off",
     "no-mixed-operators": "off",
+    "object-curly-newline": "off",
+    "no-plusplus": "off",
     "no-await-in-loop": "off"
   }
 }
