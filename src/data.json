@@ -1,0 +1,96 @@
+{
+  "currentLoad":
+  {
+      "avgLoad": 0,
+      "currentLoad": 3.2167269135933547,
+      "currentLoadUser": 1.4056694597573203,
+      "currentLoadSystem": 1.7618424334118008,
+      "currentLoadNice": 0,
+      "currentLoadIdle": 96.78327308640664,
+      "currentLoadIrq": 0.04921502042423347,
+      "rawCurrentLoad": 58171,
+      "rawCurrentLoadUser": 25420,
+      "rawCurrentLoadSystem": 31861,
+      "rawCurrentLoadNice": 0,
+      "rawCurrentLoadIdle": 1750220,
+      "rawCurrentLoadIrq": 890,
+      "cpus": [{"load":8.813483027061379,"loadUser":3.6408409680665152,"loadSystem":4.882698723719748,"loadNice":0,"loadIdle":91.18651697293862,"loadIrq":0.2899433352751152,"rawLoad":6657,"rawLoadUser":2750,"rawLoadSystem":3688,"rawLoadNice":0,"rawLoadIdle":68875,"rawLoadIrq":219},{"load":7.017543859649122,"loadUser":3.0012720623310543,"loadSystem":3.8095616685217575,"loadNice":0,"loadIdle":92.98245614035088,"loadIrq":0.20671012879631104,"rawLoad":5296,"rawLoadUser":2265,"rawLoadSystem":2875,"rawLoadNice":0,"rawLoadIdle":70172,"rawLoadIrq":156},{"load":7.791587632147926,"loadUser":3.564180450728886,"loadSystem":4.123943811431376,"loadNice":0,"loadIdle":92.20841236785208,"loadIrq":0.10346336998766398,"rawLoad":5874,"rawLoadUser":2687,"rawLoadSystem":3109,"rawLoadNice":0,"rawLoadIdle":69515,"rawLoadIrq":78},{"load":1.845287878184449,"loadUser":1.0368128293971617,"loadSystem":0.7885618702457285,"loadNice":0,"loadIdle":98.15471212181555,"loadIrq":0.0199131785415588,"rawLoad":1390,"rawLoadUser":781,"rawLoadSystem":594,"rawLoadNice":0,"rawLoadIdle":73937,"rawLoadIrq":15},{"load":3.897724557257786,"loadUser":2.073653187478427,"loadSystem":1.8041579268778376,"loadNice":0,"loadIdle":96.10227544274221,"loadIrq":0.01991344290152139,"rawLoad":2936,"rawLoadUser":1562,"rawLoadSystem":1359,"rawLoadNice":0,"rawLoadIdle":72390,"rawLoadIrq":15},{"load":1.804493307839388,"loadUser":0.8922880815806247,"loadSystem":0.9122052262587635,"loadNice":0,"loadIdle":98.19550669216062,"loadIrq":0,"rawLoad":1359,"rawLoadUser":672,"rawLoadSystem":687,"rawLoadNice":0,"rawLoadIdle":73953,"rawLoadIrq":0},{"load":3.2763816427044756,"loadUser":1.4523344882976887,"loadSystem":1.8041339758652277,"loadNice":0,"loadIdle":96.72361835729552,"loadIrq":0.0199131785415588,"rawLoad":2468,"rawLoadUser":1094,"rawLoadSystem":1359,"rawLoadNice":0,"rawLoadIdle":72859,"rawLoadIrq":15},{"load":1.7018678065552444,"loadUser":0.7049078044312284,"loadSystem":0.9757198422918133,"loadNice":0,"loadIdle":98.29813219344476,"loadIrq":0.021240159832202735,"rawLoad":1282,"rawLoadUser":531,"rawLoadSystem":735,"rawLoadNice":0,"rawLoadIdle":74047,"rawLoadIrq":16},{"load":2.634547747030327,"loadUser":1.410843453447475,"loadSystem":1.1812329948901719,"loadNice":0,"loadIdle":97.36545225296967,"loadIrq":0.042471298692680334,"rawLoad":1985,"rawLoadUser":1063,"rawLoadSystem":890,"rawLoadNice":0,"rawLoadIdle":73360,"rawLoadIrq":32},{"load":1.6185784658691063,"loadUser":0.580245110405906,"loadSystem":1.0383333554632002,"loadNice":0,"loadIdle":98.3814215341309,"loadIrq":0,"rawLoad":1219,"rawLoadUser":437,"rawLoadSystem":782,"rawLoadNice":0,"rawLoadIdle":74094,"rawLoadIrq":0},{"load":2.344413763806287,"loadUser":1.3899214103653357,"loadSystem":0.9345794392523363,"loadNice":0,"loadIdle":97.65558623619371,"loadIrq":0.019912914188615124,"rawLoad":1766,"rawLoadUser":1047,"rawLoadSystem":704,"rawLoadNice":0,"rawLoadIdle":73562,"rawLoadIrq":15},{"load":1.8257140201558826,"loadUser":0.9334377863051531,"loadSystem":0.8922762338507296,"loadNice":0,"loadIdle":98.17428597984413,"loadIrq":0,"rawLoad":1375,"rawLoadUser":703,"rawLoadSystem":672,"rawLoadNice":0,"rawLoadIdle":73938,"rawLoadIrq":0},{"load":1.9917144678138943,"loadUser":1.0795092415551306,"loadSystem":0.9122052262587635,"loadNice":0,"loadIdle":98.00828553218611,"loadIrq":0,"rawLoad":1500,"rawLoadUser":813,"rawLoadSystem":687,"rawLoadNice":0,"rawLoadIdle":73812,"rawLoadIrq":0},{"load":1.8257140201558826,"loadUser":1.1206564603720472,"loadSystem":0.7050575597838354,"loadNice":0,"loadIdle":98.17428597984413,"loadIrq":0,"rawLoad":1375,"rawLoadUser":844,"rawLoadSystem":531,"rawLoadNice":0,"rawLoadIdle":73938,"rawLoadIrq":0},{"load":3.835740072202166,"loadUser":1.8037269059248247,"loadSystem":1.9908685495858995,"loadNice":0,"loadIdle":96.16425992779783,"loadIrq":0.04114461669144192,"rawLoad":2890,"rawLoadUser":1359,"rawLoadSystem":1500,"rawLoadNice":0,"rawLoadIdle":72454,"rawLoadIrq":31},{"load":4.557683387449473,"loadUser":1.843482870585117,"loadSystem":2.527334172685707,"loadNice":0,"loadIdle":95.44231661255053,"loadIrq":0.18686634417864953,"rawLoad":3439,"rawLoadUser":1391,"rawLoadSystem":1907,"rawLoadNice":0,"rawLoadIdle":72016,"rawLoadIrq":141},{"load":2.4668586366591914,"loadUser":0.9116363009063284,"loadSystem":1.4928542045409308,"loadNice":0,"loadIdle":97.53314136334082,"loadIrq":0.06236813121193222,"rawLoad":1859,"rawLoadUser":687,"rawLoadSystem":1125,"rawLoadNice":0,"rawLoadIdle":73500,"rawLoadIrq":47},{"load":2.488327674023769,"loadUser":1.2640598471986417,"loadSystem":1.1194821731748728,"loadNice":0,"loadIdle":97.51167232597624,"loadIrq":0.10478565365025466,"rawLoad":1876,"rawLoadUser":953,"rawLoadSystem":844,"rawLoadNice":0,"rawLoadIdle":73516,"rawLoadIrq":79},{"load":2.4683981304440197,"loadUser":0.7674739749309539,"loadSystem":1.7009241555130659,"loadNice":0,"loadIdle":97.53160186955598,"loadIrq":0,"rawLoad":1859,"rawLoadUser":578,"rawLoadSystem":1281,"rawLoadNice":0,"rawLoadIdle":73453,"rawLoadIrq":0},{"load":2.240836862297389,"loadUser":0.8721740631098249,"loadSystem":1.3487501493448737,"loadNice":0,"loadIdle":97.75916313770261,"loadIrq":0.019912649842690065,"rawLoad":1688,"rawLoadUser":657,"rawLoadSystem":1016,"rawLoadNice":0,"rawLoadIdle":73641,"rawLoadIrq":15},{"load":1.9917144678138943,"loadUser":0.8497981729339281,"loadSystem":1.141916294879966,"loadNice":0,"loadIdle":98.00828553218611,"loadIrq":0,"rawLoad":1500,"rawLoadUser":640,"rawLoadSystem":860,"rawLoadNice":0,"rawLoadIdle":73812,"rawLoadIrq":0},{"load":1.824410452517527,"loadUser":0.7462290206076058,"loadSystem":1.0781814319099214,"loadNice":0,"loadIdle":98.17558954748247,"loadIrq":0,"rawLoad":1374,"rawLoadUser":562,"rawLoadSystem":812,"rawLoadNice":0,"rawLoadIdle":73938,"rawLoadIrq":0},{"load":2.7798059180395334,"loadUser":0.892086712952515,"loadSystem":1.8664790452548157,"loadNice":0,"loadIdle":97.22019408196047,"loadIrq":0.021240159832202735,"rawLoad":2094,"rawLoadUser":672,"rawLoadSystem":1406,"rawLoadNice":0,"rawLoadIdle":73235,"rawLoadIrq":16},{"load":4.129433165588942,"loadUser":0.8922762338507296,"loadSystem":3.2371569317382125,"loadNice":0,"loadIdle":95.87056683441105,"loadIrq":0,"rawLoad":3110,"rawLoadUser":672,"rawLoadSystem":2438,"rawLoadNice":0,"rawLoadIdle":72203,"rawLoadIrq":0}]
+  },
+  "wifiConnections":
+  [
+      {"id":"7c1432c4-7508-4587-a280-e491a08ab176","iface":"Wi-Fi","model":"Intel(R) Wi-Fi 6 AX201 160MHz","ssid":"Cyan-50","bssid":"3c:84:6a:1c:02:72","channel":60,"frequency":5300,"type":"802.11ax","security":"WPA2-Personal","signalLevel":"88%","txRate":1922}
+  ],
+  "audio":
+  [
+      {"id":"HDAUDIO\\FUNC_01&VEN_10DE&DEV_009F&SUBSYS_10438810&REV_1001\\5&2EF840AA&0&0001","name":"NVIDIA High Definition Audio","manufacturer":"NVIDIA","revision":null,"driver":null,"default":null,"channel":null,"type":"","in":null,"out":null,"status":"3"},
+      {"id":"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_14629D25&REV_1004\\4&32C7FCF4&0&0001","name":"Realtek High Definition Audio","manufacturer":"Realtek","revision":null,"driver":null,"default":null,"channel":null,"type":"","in":null,"out":null,"status":"3"},
+      {"id":"ROOT\\UNNAMED_DEVICE\\0000","name":"NVIDIA Virtual Audio Device (Wave Extensible) (WDM)","manufacturer":"NVIDIA","revision":null,"driver":null,"default":null,"channel":null,"type":"","in":null,"out":null,"status":"3"},
+      {"id":"USB\\VID_1BCF&PID_28C4&MI_02\\7&1DA11EB4&0&0002","name":"USB Audio Device","manufacturer":"(Generic USB Audio)","revision":null,"driver":null,"default":null,"channel":null,"type":"","in":null,"out":null,"status":"3"},
+      {"id":"ROOT\\MEDIA\\0000","name":"e2eSoft iVCam","manufacturer":"e2eSoft","revision":null,"driver":null,"default":null,"channel":null,"type":"","in":null,"out":null,"status":"3"}
+  ],
+  "battery":
+  {
+      "hasBattery": false,
+      "cycleCount": 0,
+      "isCharging": false,
+      "designedCapacity": 0,
+      "maxCapacity": 0,
+      "currentCapacity": 0,
+      "voltage": 0,
+      "capacityUnit": "",
+      "percent": 0,
+      "timeRemaining": null,
+      "acConnected": true,
+      "type": "",
+      "model": "",
+      "manufacturer": "",
+      "serial": ""
+  },
+  "networkInterfaces":
+  [
+      {"iface":"Wi-Fi","ifaceName":"Intel(R) Wi-Fi 6 AX201 160MHz","default":true,"ip4":"192.168.0.247","ip4subnet":"255.255.255.0","ip6":"fe80::4503:238c:df67:8a86","ip6subnet":"ffff:ffff:ffff:ffff::","mac":"cc:15:31:e9:20:8c","internal":false,"virtual":false,"operstate":"up","type":"wireless","duplex":"","mtu":"","speed":1537.5,"dhcp":true,"dnsSuffix":"local","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0},
+      {"iface":"Loopback Pseudo-Interface 1","ifaceName":"Loopback Pseudo-Interface 1","default":false,"ip4":"127.0.0.1","ip4subnet":"255.0.0.0","ip6":"::1","ip6subnet":"ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff","mac":"00:00:00:00:00:00","internal":true,"virtual":false,"operstate":"down","type":"","duplex":"","mtu":"","speed":null,"dhcp":false,"dnsSuffix":"","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0},
+      {"iface":"vEthernet (WSL)","ifaceName":"vEthernet (WSL)","default":false,"ip4":"172.25.208.1","ip4subnet":"255.255.240.0","ip6":"fe80::1410:a618:8651:5a1b","ip6subnet":"ffff:ffff:ffff:ffff::","mac":"00:15:5d:1c:4d:a3","internal":false,"virtual":true,"operstate":"down","type":"","duplex":"","mtu":"","speed":null,"dhcp":false,"dnsSuffix":"","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0},
+      {"iface":"Ethernet","ifaceName":"Intel(R) Ethernet Controller (3) I225-V","default":false,"ip4":"","ip4subnet":"","ip6":"","ip6subnet":"","mac":"d8:bb:c1:9d:94:60","virtual":false,"operstate":"down","type":"wired","duplex":"","mtu":"","speed":9223372036854.775,"dhcp":true,"dnsSuffix":"","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0},
+      {"iface":"Bluetooth Network Connection","ifaceName":"Bluetooth Device (Personal Area Network)","default":false,"ip4":"","ip4subnet":"","ip6":"","ip6subnet":"","mac":"cc:15:31:e9:20:90","virtual":false,"operstate":"down","type":"wired","duplex":"","mtu":"","speed":3,"dhcp":true,"dnsSuffix":"","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0},
+      {"iface":"Ethernet 2","ifaceName":"TAP-Surfshark Windows Adapter V9","default":false,"ip4":"","ip4subnet":"","ip6":"","ip6subnet":"","mac":"00:ff:0d:6d:68:07","virtual":false,"operstate":"down","type":"wired","duplex":"","mtu":"","speed":1000,"dhcp":true,"dnsSuffix":"","ieee8021xAuth":"Not defined","ieee8021xState":"Disabled","carrierChanges":0}
+  ],
+  "bluetooth":
+  [
+      {"device":null,"name":"Bluetooth Device (RFCOMM Protocol TDI)","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"Intel(R) Wireless Bluetooth(R)","manufacturer":"Intel Corporation","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"EarFun Air Pro Avrcp Transport","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"Microsoft Bluetooth Enumerator","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"EarFun Air Pro","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"Microsoft Bluetooth LE Enumerator","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null},
+      {"device":null,"name":"EarFun Air Pro Avrcp Transport","manufacturer":"Microsoft","macDevice":null,"macHost":null,"batteryPercent":null,"type":"","connected":null}
+  ],
+  "printer":
+  [
+      {"id":1,"name":"OneNote for Windows 10","model":"Microsoft Software Printer Driver","uri":null,"uuid":null,"status":"Idle","local":true,"default":false,"shared":false},
+      {"id":2,"name":"OneNote (Desktop)","model":"Send to Microsoft OneNote 16 Driver","uri":null,"uuid":null,"status":"Idle","local":true,"default":false,"shared":false},
+      {"id":3,"name":"Microsoft XPS Document Writer","model":"Microsoft XPS Document Writer v4","uri":null,"uuid":null,"status":"Idle","local":true,"default":false,"shared":false},
+      {"id":4,"name":"Microsoft Print to PDF","model":"Microsoft Print To PDF","uri":null,"uuid":null,"status":"Idle","local":true,"default":false,"shared":false},
+      {"id":5,"name":"Fax","model":"Microsoft Shared Fax Driver","uri":null,"uuid":null,"status":"Idle","local":true,"default":false,"shared":false},
+      {"id":6,"name":"Canon TS9100 series","model":"Microsoft IPP Class Driver","uri":null,"uuid":null,"status":"Idle","local":true,"default":true,"shared":false}
+  ],
+  "networkStats":
+  [
+      {"iface":"Wi-Fi","operstate":"up","rx_bytes":260862276,"rx_dropped":0,"rx_errors":0,"tx_bytes":149164005,"tx_dropped":0,"tx_errors":0,"rx_sec":1579.3731613487216,"tx_sec":408.36444897035534,"ms":70704}
+  ],
+  "usb":
+  [
+      {"bus":null,"deviceId":"PCI\\VEN_8086&DEV_7AE0&SUBSYS_7D251462&REV_11\\3&11583659&0&A0","id":2,"name":"Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)","type":"Controller","removable":null,"vendor":null,"manufacturer":"Generic USB xHCI Host Controller","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_0781&PID_55AF\\MSFT3032313439334A343030373034","id":3,"name":"USB Attached SCSI (UAS) Mass Storage Device","type":"Storage","removable":null,"vendor":null,"manufacturer":"USB Attached SCSI (UAS) Compatible Device","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_046D&PID_C246&MI_00\\6&20D66219&0&0000","id":4,"name":"USB Input Device","type":"Mouse","removable":null,"vendor":null,"manufacturer":"(Standard system devices)","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_1E7D&PID_30F7&MI_00\\6&391ECFAE&0&0000","id":5,"name":"Enhanced (101- or 102-key)","type":"Keyboard","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_1E7D&PID_30F7&MI_02\\6&391ECFAE&0&0002","id":6,"name":"Enhanced (101- or 102-key)","type":"Keyboard","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_046D&PID_C246\\5&323A54A6&0&11","id":14,"name":"USB Composite Device","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_1BCF&PID_28C4\\01.00.00","id":15,"name":"USB Composite Device","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\ROOT_HUB30\\4&13C2F499&0&0","id":16,"name":"USB Root Hub (USB 3.0)","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_05E3&PID_0608\\5&323A54A6&0&5","id":17,"name":"Generic USB Hub","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_05E3&PID_0608\\5&323A54A6&0&13","id":18,"name":"Generic USB Hub","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_1E7D&PID_30F7\\5&323A54A6&0&12","id":19,"name":"USB Composite Device","type":"Hub","removable":null,"vendor":null,"manufacturer":"","maxPower":null,"serialNumber":null},
+      {"bus":null,"deviceId":"USB\\VID_0781&PID_55AF\\MSFT3032313439334A343030373034","id":24,"name":"USB Attached SCSI (UAS) Mass Storage Device","type":"Storage","removable":null,"vendor":null,"manufacturer":"USB Attached SCSI (UAS) Compatible Device","maxPower":null,"serialNumber":null}
+  ]
+}

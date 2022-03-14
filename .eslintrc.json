@@ -27,6 +27,11 @@
     "max-len": [1, 275, 3],
     "radix": "off",
     "import/extensions": "off",
-    "promise/catch-or-return": "off"
+    "promise/catch-or-return": "off",
+    "no-restricted-syntax": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
+    "no-mixed-operators": "off",
+    "no-await-in-loop": "off"
   }
 }

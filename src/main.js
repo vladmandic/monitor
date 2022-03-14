@@ -24,8 +24,8 @@ const sendCoreData = () => {
   si.baseboard().then((data) => win.webContents.send('baseboard', data));
   si.cpu().then((data) => win.webContents.send('cpu', data));
   si.mem().then((data) => win.webContents.send('memory', data));
-  si.memLayout().then((data) => win.webContents.send('memoryLayout', data));
-  si.osInfo().then((data) => win.webContents.send('os', data));
+  si.memLayout().then((data) => win.webContents.send('memLayout', data));
+  si.osInfo().then((data) => win.webContents.send('osInfo', data));
   si.users().then((data) => win.webContents.send('users', data));
   si.diskLayout().then((data) => win.webContents.send('diskLayout', data));
   si.blockDevices().then((data) => win.webContents.send('blockDevices', data));

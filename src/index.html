@@ -5,15 +5,34 @@
     <title>Monitor</title>
     <meta name="viewport" content="width=device-width" id="viewport">
     <meta name="theme-color" content="#000000">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' https:;">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet"> <!-- https://materialdesignicons.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <style>
-      html { font-family: 'Segoe UI'; font-size: 14px; font-variant: small-caps; }
-      body { margin: 0; background: black; color: white; overflow: hidden; width: 100vw; height: 100vh; }
+      html { font-family: 'Lato'; font-size: 14px; font-variant: small-caps; }
+      body { margin: 0; background: black; color: white; overflow: hidden; width: 100vw; height: 100vh; display: block; }
       ::-webkit-scrollbar { display: none; width: 0px; }
+      .menuTop { background: #222222; width: 54px; height: 100%; display: table; }
+      .menuBottom { background: #222222; width: 54px; display: table; position: fixed; bottom: 0; left: 0; }
+      .content { background: #000000; width: 100%; height: 100%; display: block; position: fixed; top: 0; left: 54px; }
+      .button { margin: 2px; padding: 0; color: white; width: 50px; height: 50px; font-size: 24px; border-width: 0; border-radius: 0; box-shadow: 4px 4px 8px 1px #222222; transition: all 0.5s; }
+      .button:hover { opacity: 50%; }
+      .section { margin: 8px; padding: 4px; width: max-content; height: 140px; line-height: 1.5rem; background: #222222; border-width: 0; border-radius: 0; display: inline-table; word-spacing: 3px; }
     </style>
   </head>
   <body>
-    <h1>monitor...</h1>
+    <div id="menuTop" class="menuTop">
+      <button id="btnSystemInfo" class="button mdi mdi-desktop-tower" title="system info"></button>
+      <button id="btnStorageInfo" class="button mdi mdi-database" title="storage info"></button>
+      <button id="btnOSInfo" class="button mdi mdi-microsoft-windows" title="os info"></button>
+      <button id="btnDisplayInfo" class="button mdi mdi-monitor" title="display info"></button>
+    </div>
+    <div id="menuBottom" class="menuBottom">
+      <button id="btnRefresh" class="button mdi mdi-refresh-circle" title="refresh data"></button>
+      <button id="btnSettings" class="button mdi mdi-chevron-down-circle" title="setting"></button>
+      <button id="btnExit" class="button mdi mdi-close-circle" title="exit"></button>
+    </div>
+    <div id="content" class="content"></div>
     <script>
       require('./renderer.js');
     </script>
