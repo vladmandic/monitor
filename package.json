@@ -23,7 +23,9 @@
   "build": {
     "appId": "@vladmandic/monitor",
     "win": {
-      "target": ["portable"],
+      "target": [
+        "portable"
+      ],
       "icon": "src/favicon.ico",
       "requestedExecutionLevel": "requireAdministrator"
     },
@@ -37,16 +39,16 @@
     }
   },
   "dependencies": {
-    "electron": "^17.1.2",
-    "plotly.js-dist-min": "^2.11.0",
-    "systeminformation": "^5.11.8"
+    "electron": "^19.0.0",
+    "plotly.js-dist-min": "^2.12.1",
+    "systeminformation": "^5.11.15"
   },
   "devDependencies": {
-    "electron-builder": "^22.14.13",
-    "eslint": "^8.11.0",
+    "electron-builder": "^23.0.3",
+    "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0"
